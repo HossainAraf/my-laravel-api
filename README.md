@@ -19,6 +19,15 @@ php artisan config:clear
 php artisan config:cache
 
 
+php artisan make:model <model_name> -m
+php artisan make:model Post -m
+# Like scaffold in rails
+
+php artisan make:controller <controller_name> --resource
+php artisan make:controller PostController --resource
+# --resource flag to generate a resource controller with CRUD methods (create, read, update, delete) pre-built.
+
+
 
 ------------------------------------------------------------------------
 
