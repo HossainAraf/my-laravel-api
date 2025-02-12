@@ -19,6 +19,16 @@ php artisan config:clear
 php artisan config:cache
 
 
+composer require --dev phpstan/phpstan
+# Install Linter : phpstan
+
+Add the following lines to composer.json in order to configure the file for  linter
+  "lint": [
+            "phpstan analyse app/"      
+            <!-- You can pass a higher rule level through the --level option(the default and current level is 0) to analyse code more thoroughly. -->
+        ]
+
+
 php artisan make:model <model_name> -m
 php artisan make:model Post -m
 # Like scaffold in rails
