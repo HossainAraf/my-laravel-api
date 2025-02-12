@@ -22,7 +22,8 @@ php artisan config:cache
 composer require --dev phpstan/phpstan
 # Install Linter : phpstan
 
-Add the following lines to composer.json in order to configure the file for  linter
+Add the following lines to scripts in composer.json in order to configure the file for  linter
+
   "lint": [
             "phpstan analyse app/"      
             <!-- You can pass a higher rule level through the --level option(the default and current level is 0) to analyse code more thoroughly. -->
