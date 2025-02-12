@@ -1,3 +1,28 @@
+php artisan serve
+# start/run laravel project  : 
+
+php artisan about  
+# [display an overview of your application's configuration, drivers, and environment via the about Artisan command] : 
+
+composer --version
+# To see the version of composer & php 
+
+psql -U <psql user name> name>-d <database name>
+[eg; psql -U hossain_araf -d my_laravel]
+# insert into a database using password directly by psql password
+
+
+3306 is the default port for MySQL.
+5432 is the default port for PostgreSQL.
+
+php artisan config:clear
+php artisan config:cache
+
+
+
+------------------------------------------------------------------------
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
