@@ -3,7 +3,7 @@ name: PHPStan Analysis
 on:
   pull_request:
     branches:
-      -dev
+      - dev
 
 jobs:
   phpstan:
