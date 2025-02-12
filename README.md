@@ -29,6 +29,11 @@ Add the following lines to scripts in composer.json in order to configure the fi
             <!-- You can pass a higher rule level through the --level option(the default and current level is 0) to analyse code more thoroughly. -->
         ]
 
+        # Create a PHPStan configuration file (eg: phpstan.neon)  for PHPStan itself
+
+        # Add gitflow action
+        
+
 
 php artisan make:model <model_name> -m
 php artisan make:model Post -m
